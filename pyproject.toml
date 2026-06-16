@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mamori"
+version = "0.1.0"
+description = "Cross-lingual indirect-prompt-injection robustness benchmark for tool-using LLM agents (AgentDojo extension)."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "agentdojo",
+]
+
+[project.optional-dependencies]
+# Open-weight serving + optional MT backends; install on the GPU machine.
+serving = ["vllm"]
+mt = ["transformers", "sentencepiece"]
+
+[tool.setuptools.packages.find]
+include = ["mamori*"]
