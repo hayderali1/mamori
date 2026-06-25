@@ -312,8 +312,8 @@ This is **defensive** research. All attacker tasks are benign sandbox actions in
 
 ```bibtex
 @misc{almamoori_mamori,
-  title  = {MAMORI: A Cross-Lingual Benchmark for Indirect Prompt-Injection
-            Robustness in Tool-Using LLM Agents},
+  title  = {MAMORI: A Cross-Lingual Benchmark for Indirect
+             Prompt Injection in Tool-Using LLM Agents},
   author = {Almamoori, Hayder},
   note   = {Department of Electrical and Electronics Engineering, Ege University},
   year   = {2026}
